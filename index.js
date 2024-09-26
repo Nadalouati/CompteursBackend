@@ -12,7 +12,7 @@ app.use(cors());
 // Middleware pour analyser les JSON
 app.use(express.json());
 
-// Démarrer le serveur et se connecter à MongoDB
+// Démarrer le serveur et se connecter à MongoDB asslema ya bhema
 app.listen(PORT, async () => {
     try {
         await mongoose.connect(
